@@ -123,37 +123,49 @@ export default class Main extends React.Component {
   divisao = () => {
     const { numberOne, numberTwo } = this.state;
     this.setState({
-      result: Number(numberOne) / Number(numberTwo)
+      result: Number(numberOne) / Number(numberTwo),
+      n1: "",
+      n2: ""
     });
   };
   multiplicacao = () => {
     const { numberOne, numberTwo } = this.state;
     this.setState({
-      result: Number(numberOne) * Number(numberTwo)
+      result: Number(numberOne) * Number(numberTwo),
+      n1: "",
+      n2: ""
     });
   };
   subtracao = () => {
     const { numberOne, numberTwo } = this.state;
     this.setState({
-      result: Number(numberOne) - Number(numberTwo)
+      result: Number(numberOne) - Number(numberTwo),
+      n1: "",
+      n2: ""
     });
   };
   resto = () => {
     const { numberOne, numberTwo } = this.state;
     this.setState({
-      result: Number(numberOne) % Number(numberTwo)
+      result: Number(numberOne) % Number(numberTwo),
+      n1: "",
+      n2: ""
     });
   };
   adisao = () => {
     const { numberOne, numberTwo } = this.state;
     this.setState({
-      result: Number(numberOne) + Number(numberTwo)
+      result: Number(numberOne) + Number(numberTwo),
+      n1: "",
+      n2: ""
     });
   };
   exponencial = () => {
     const { numberOne, numberTwo } = this.state;
     this.setState({
-      result: Number(numberOne) ** Number(numberTwo)
+      result: Number(numberOne) ** Number(numberTwo),
+      n1: "",
+      n2: ""
     });
   };
   deletar = () => {
